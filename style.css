@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: epilogue;
+  font-size: 18px;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+}
+
+/* ***************** navbar ************************************ */
+.navbar-brand {
+  font-size: 2em;
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+.links:hover {
+  color: black;
+  font-weight: 500;
+}
+
+/* features */
+.features-icons {
+  margin-right: 10px;
+}
+
+/* Main container */
+.main-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/************************* content section ******************************/
+
+/* title section */
+#title {
+  margin-top: 5.5em;
+  /* margin-left: 2.5em; */
+  /* border: 2px solid black; */
+  padding-left: 60px;
+}
+h1 {
+  font-weight: 700;
+  color: hsl(0, 0%, 8%);
+  font-size: 4.5em;
+  line-height: 0.9;
+  /* padding-left: 50px; */
+}
+
+p {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding-right: 20%;
+}
+
+.row {
+  padding: 0 10px 10px 10px;
+}
+
+/*/////////// image ////////*/
+.image {
+  width: 450px;
+  margin-left: 15%;
+  /* border: 2px solid black; */
+}
+
+/*///////////// footer /////////////*/
+.footer-icons {
+  margin-top: 4em;
+  margin-right: 2em;
+}
+
+/*////////////// Buttons //////////////*/
+.btn {
+  border-radius: 10px;
+}
+
+.buttons {
+  margin-left: auto;
+}
+.login {
+  border: none;
+}
+.login:hover {
+  border: none;
+}
+
+.register {
+  border: 1px solid hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+}
+.register:hover {
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+.learn-more:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/************************ attribute *************************/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/*************************************** Media Queries *******************************/
+
+@media screen and (min-width: 990px) {
+  #mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #desktop {
+    display: none;
+  }
+}
+
+/********************************* Mobile Section **********************************************/
+#mobile {
+  text-align: center;
+  border: 2px solid black;
+}
+
+#mobile-image {
+  width: 100%;
+}
+
+#mobile-title {
+  font-size: 2.5em;
+  margin-top: 1.2em;
+}
+#mobile-text {
+  padding: 0;
+  margin-top: 1.2em;
+  margin-bottom: 2em;
+}
+#mobile-footer {
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-footer-icons {
+  margin: 5em 4em 0 0;
+}
+
+/************************************ Offcanvas *******************************************/
+
+.btn-close {
+  margin-left: auto;
+  font-size: 30px;
+}
+.offcanvas-body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.offcanvas-btn {
+  margin-top: 20px;
+}
+.offcanvas-register {
+  margin-top: 10px;
+}
